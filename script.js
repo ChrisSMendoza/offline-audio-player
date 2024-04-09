@@ -4,7 +4,7 @@ window.addEventListener('load', () => {
 
     function updateAudioSource(urls) {
         urls.forEach(url => {
-            if (url === '/Its_Friday_But_Sunday.mp3') {
+            if (url === '/Larry_June.mp3') {
                 audioSource.src = url;
                 audioPlayer.load();
             }
@@ -15,7 +15,7 @@ window.addEventListener('load', () => {
         navigator.serviceWorker.ready.then(registration => {
             registration.active.postMessage({
                 type: 'CACHE_URLS',
-                urls: ['/Its_Friday_But_Sunday.mp3']
+                urls: ['/Larry_June.mp3']
             });
 
             navigator.serviceWorker.addEventListener('message', event => {
