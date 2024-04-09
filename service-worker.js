@@ -1,6 +1,6 @@
 const cacheName = 'audio-cache-v1';
 const filesToCache = [
-    '/Its_Friday_But_Sunday.mp3',
+    '/Larry_June.mp3',
 ];
 
 self.addEventListener('install', event => {
