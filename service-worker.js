@@ -1,5 +1,8 @@
 const cacheName = 'audio-cache-v1';
 const filesToCache = [
+    '/',
+    '/index.html',
+    '/script.js',
     '/Larry_June.mp3',
 ];
 
